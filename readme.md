@@ -49,6 +49,42 @@ npx sequelize-cli db:seed:all
 npm start
 ```
 
+## Arquitetura de pastas
+```
+
+├── .gitignore
+├── .nvmrc
+├── .sequelizerc
+├── index.js
+├── package-lock.json
+├── package.json
+├── readme.md
+└── src
+    ├── .DS_Store
+    ├── config
+    │   └── database.js
+    ├── controllers
+    │   ├── ContasController.js
+    │   ├── PessoasController.js
+    │   └── TransacoesController.js
+    ├── database
+    │   ├── .DS_Store
+    │   ├── migrations
+    │   │   ├── 20210115135106-create-pessoas.js
+    │   │   ├── 20210115135119-create-contas.js
+    │   │   └── 20210115135137-create-transacoes.js
+    │   ├── script.sql
+    │   └── seeders
+    │       └── 20210116135530-create-pessoa.js
+    ├── models
+    │   ├── Conta.js
+    │   ├── Pessoa.js
+    │   ├── Transacao.js
+    │   └── db.js
+    └── routes
+        └── routes.js
+
+```
 
 ## Rotas vinculado a funcionalidade de Pessoas
 

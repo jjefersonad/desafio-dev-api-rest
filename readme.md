@@ -1,7 +1,12 @@
+## Versões
+
 | Descriçãp | Versão |
 |-|-|
 | MySql | 5.7 |
 | NodeJs | v14.15.3 |
+| Sequelize | ^6.3.5 |
+| mysql2 | ^2.2.5 |
+| Express | ^4.17.1 |
 
 
 ## Configuração do projeto

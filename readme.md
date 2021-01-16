@@ -1,3 +1,7 @@
+## API Rest em NodeJs e Sequelize
+
+Trata-se de um modelo de API Rest utilizando Express, Sequelize e MySql. É um modelo de API que possui o crud de Pessoas, Contas e simula Trasações bancárias de consulta de saldo, depósito e saque.
+
 ## Versões
 
 | Descriçãp | Versão |

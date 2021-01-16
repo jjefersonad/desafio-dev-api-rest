@@ -56,7 +56,6 @@ npm start
 ├── .nvmrc
 ├── .sequelizerc
 ├── index.js
-├── package-lock.json
 ├── package.json
 ├── readme.md
 └── src

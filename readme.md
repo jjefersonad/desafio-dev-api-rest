@@ -23,11 +23,11 @@
 -- Na raiz do projeto rodar o comando:
 npm install
 
-- Rodar o comando Migrate para criar as tabelas
+-- Rodar o comando Migrate para criar as tabelas
 npx sequelize-cli db:migrate
 
-- Caso deseje visualizar script SQL
+-- Caso deseje visualizar script SQL
 /src/database/script.sql
 
-- Rodar o comando seeder para criar o registro de uma pessoa
+-- Rodar o comando seeder para criar o registro de uma pessoa
 npx sequelize-cli db:seed:all
